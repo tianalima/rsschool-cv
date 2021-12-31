@@ -31,6 +31,6 @@ RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 
 * English - Intermediate/Upper-intermediate
 * Russian - Native
-* Francaise - Intermediate
+* French - Intermediate
 
 
