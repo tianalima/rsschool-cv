@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Poppins;
+    src: url("assets/fonts/Poppins-Regular.ttf");
+}
+
+body {
+    font-family: Poppins; 
+    font-size: 16px;
+    line-height: 1.5;
+    color: #c9c9c9;
+}
+
+* {
+    box-sizing: border-box;
+    }
+
+html {
+    background-color: #121212;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0 auto;
+    width: 1024px;
+    background-color: #333;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1024;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #ff5a5f;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    position: relative;
+    padding: 0 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 50px;
+    color: #fff;
+    transition: .5s;
+}
+
+.nav-link:hover {
+    color: #333;
+}
+
+.section-profile {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 90%;
+    padding: 5px 30px 35px;
+    border-bottom: 5px solid #ff5a5f;
+}
+.section-profile-photo {
+    width: 250px; 
+    height: auto; 
+}
+
+.section-profile-title {
+    font-size: 56px;
+    text-transform: uppercase;
+    color: #ff5a5f;
+}
+
+.section-profile-subtitle {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #fff;  
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.section {
+    width: 48%;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ff5a5f;
+}
+
+@media (max-with: 768px) {
+    .section {
+        width: 100%;
+     }
+}
+.section-title {
+    color: #ff5a5f;
+}
+
+.project {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer {
+    padding: 20px;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+}
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url("./assets/img/rs_school_js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
